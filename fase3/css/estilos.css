@@ -104,6 +104,7 @@ section{
 
 section h2{
     text-align: center;
+    
 }
 
 section img{
@@ -122,7 +123,21 @@ section p{
     
     
     
+    
 }
+
+section iframe{
+    display: block;
+    margin: auto;
+}
+
+section embed{
+    display: block;
+    margin: auto;
+
+}
+
+
 
 
 
