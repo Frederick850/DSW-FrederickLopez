@@ -1,0 +1,165 @@
+*{
+    margin: 5px;
+    border-radius: 5px;
+}
+
+header{
+    background-color: rgb(228, 220, 240);
+    background-image: url("../img/ABSTRACT_BACKGROUND_01.jpg");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:whitesmoke;
+    
+
+}
+
+
+body{
+    background-color: rgb(65, 60, 55);
+    background-image: url("../img/fondo.jpg");
+}
+
+
+.menu{
+    display: flex;
+
+}
+
+nav ul{ /*1prueba*/
+    list-style: none;
+    padding: 5px;
+    color: cyan;
+    background-color: transparent ;
+
+
+}
+
+.menu li{
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(128, 139, 28);
+    height: 25px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+
+}
+
+.dropdown li{ 
+    display: none;
+    
+}
+
+.menu li:hover .dropdown li{
+
+    display: block;
+    
+}
+
+.menu a:hover{
+    background-color: rgb(131, 211, 243);
+    color: rgb(38, 58, 148);
+    
+    
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+aside{
+    grid-column: 1/2;
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+    
+
+}
+
+
+
+
+
+section{
+    grid-column: 2/5;
+    background-color: rgba(204, 204, 204, 0.500);
+    color: black;
+    
+    
+    
+    
+
+}
+
+section h2{
+    text-align: center;
+    
+}
+
+section img{
+    display: block;
+    margin: auto;
+    width: 400px;
+
+}
+
+section p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    line-height: 200%;
+    padding: 1em;
+    
+    
+    
+    
+}
+
+section iframe{
+    display: block;
+    margin: auto;
+}
+
+section embed{
+    display: block;
+    margin: auto;
+
+}
+
+@media (max-width:600px){
+    .mnu{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+
+
+footer{
+    text-align: center;
+    background-color: rgba(4, 19, 4, 0.692);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+footer a{
+    color: cyan;
+}
