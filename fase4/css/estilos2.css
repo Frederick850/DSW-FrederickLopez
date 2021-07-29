@@ -35,7 +35,7 @@ body{
 
 section{
     grid-column: 2/5;
-    background-color: transparent rgba(204, 204, 204, 0.500);
+    background-color: transparent;
     color: black;
     text-align: center;
        
@@ -45,7 +45,7 @@ section{
 
 aside{
     grid-column: 1/2;
-    background-color: transparent rgba(204, 204, 204, 0.993);
+    background-color: transparent;
     text-align: center;
     padding: 1em;
     
