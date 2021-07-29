@@ -2,199 +2,168 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad fase 3</title>
-    <!--<link rel="stylesheet" href="css/estilos.css">-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-  <style>
-    header{
-    background-color: rgb(228, 220, 240);
-    background-image: url("img/ABSTRACT_BACKGROUND_01.jpg");
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color:whitesmoke;
-}
-
-@media (max-width:600px){
-    .mnu{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    header{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    body{
-      flex-direction: column;
-        align-items: flex-start;
-    }
-}
-
-body{
-    background-color: rgb(65, 60, 55);
-    background-image: url("img/fondo.jpg");
-}
-
-footer{
-    text-align: center;
-    background-color: rgba(4, 19, 4, 0.692);
-    color: white;
-    border-radius: 15px;
-    padding: 10px;
-
-}
-
-footer a{
-    color: cyan;
-}
-
-  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad fase 3</title>
+  <link rel="stylesheet" href="css/estilos2.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header >
-        <!-- Seccion del encabezado-->
-        <img src="img/Logo1.jpg" alt="imagen de logo" height="100" width="200">
-        <h1>Diseño de Sitios Web: Flex Box, CSS Grid</h1>
-        <img src="img/logo2.jpg" alt="imagen de logo" height="100" width="200">
-      </div>
-  </div>
-    </header>
+  <header>
+    <!-- Seccion del encabezado-->
+    <img src="img/Logo1.jpg" alt="imagen de logo" height="100" width="200">
+    <h1>Diseño de Sitios Web: Flex Box, CSS Grid</h1>
+    <img src="img/logo2.jpg" alt="imagen de logo" height="100" width="200">
+    </div>
+    </div>
+  </header>
 
-    <nav class="navbar navbar-expand-lg navbar-danger bg-dark">
-        <div class="container-fluid">
-          <!--<a class="navbar-brand" href="#">Navbar scroll</a>-->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <a class="nav-link active text-info" aria-current="page" href="index.html">Inicio</a>
+  <nav class="navbar navbar-expand-lg navbar-danger bg-dark">
+    <div class="container-fluid">
+      <!--<a class="navbar-brand" href="#">Navbar scroll</a>-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active text-info" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-info" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Temas
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item text-warning" href="tema1.html">Flex Box</a></li>
+              <li><a class="dropdown-item text-info" href="tema2.html">CSS Grid</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-info" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Temas
-                </a>
-                <ul class="dropdown-menu " aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item text-warning" href="tema1.html">Flex Box</a></li>
-                  <li><a class="dropdown-item text-info" href="tema2.html">CSS Grid</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-info" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Recusrsos Digitales
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item text-warning" href="recurso1.html">Tutoriales Flex Box</a></li>
-                  <li><a class="dropdown-item text-info" href="recurso2.html">Tutoriales CSS Grid</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-info" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Aprendizaje
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item text-warning" href="Actividad1.html">Actividad Flex Box</a></li>
-                  <li><a class="dropdown-item text-info" href="Actividad2.html">Actividad CSS Grid</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-info" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Acerca de...
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item text-info" href="#">Autor</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                </ul>
-              </li>
-              
             </ul>
-            <!--<form class="d-flex">
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-info" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Recusrsos Digitales
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item text-warning" href="recurso1.html">Tutoriales Flex Box</a></li>
+              <li><a class="dropdown-item text-info" href="recurso2.html">Tutoriales CSS Grid</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-info" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Aprendizaje
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item text-warning" href="Actividad1.html">Actividad Flex Box</a></li>
+              <li><a class="dropdown-item text-info" href="Actividad2.html">Actividad CSS Grid</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-info" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Acerca de...
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item text-info" href="autor.html">Autor</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+        <!--<form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>-->
-          </div>
-        </div>
-      </nav>
-
-
-
-    <div class="contenedor">
-        <div class="row">
-               
-        <aside class="col-4">
-            <h3>Siguenos</h3>
-            <iframe
-                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                allowfullscreen="true"
-                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-        </aside>
-        
-        <section class="col-8 justify-content">
-            <br>
-            <h2>Evaluacion Tenma 2 CSS Grid</h2>
-            <br>
-            <p>
-
-                A continuacion se presentara un cuestionario realicionado con el <a href = "tema2.html">tema 1</a> para conocer los avances de la lectura y auto aprendizage.
-                Reuerda revisar antes los recursos y loas guias que se encuentran e este entorno de aprendiaje, la prueba no tiene limite de tiempo, lo mas importante 
-                es que te esfuerces, aprendas y disfutes del desarrollo web.
-
-            </p>
-
-            <br>
-            <br>
-            <br>
-            <br>
-            <p>
-            
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNM0edoQ5slaOX-W-bSu5QvdgxOOzyTk7TZNj3oDm0Q1I3cQ/viewform?embedded=true" 
-                width="660" height="2560" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-
-            </p>
-
-
-        </section>
-
-
-        <br>
-        <br>
-        <br>
+      </div>
     </div>
-    </div>
+  </nav>
 
-    <footer>
-        <p>correo: felopezt@unadvirtual.edu.co</br>
-            Skype: spaik850</br>
-            fecha de actualizacion: 15/06/2021<br>
-            Imagenes tomadas de :
-            <a href='https://www.freepik.es/fotos-vectores-gratis/fondo'>Vector de Fondo creado por starline -
-                www.freepik.es</a><br>
 
-            <a href='https://www.freepik.es/fotos-vectores-gratis/fondo'>Vector de Fondo creado por starline -
-                www.freepik.es</a><br>
 
-            <a href='https://www.freepik.es/fotos-vectores-gratis/tecnologia'>Vector de Tecnología creado por upklyak -
-                www.freepik.es</a><br>
-            Ejercicios tomados de:
-            <a href="https://mape.neocities.org/flexbox.html">Ejercios de flexbox</a><br>
-            Guia tomada de :
-            <a href="http://www.diazcortez.com.ar/bienal2019/layout/gridCSS.pdf">Gia CSS Grid</a>
+  <div class="contenedor">
+    <div class="row">
+
+      <aside class="col-4">
+        <br>
+        <h3>Siguenos</h3>
+        <iframe
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+          width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+          allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      </aside>
+
+      <section class="col-8 justify-content">
+        <br>
+        <h2>Evaluacion Tenma 2 CSS Grid</h2>
+        <br>
+        <p>
+
+          A continuacion se presentara un cuestionario realicionado con el <a href="tema2.html">tema 1</a> para conocer
+          los avances de la lectura y auto aprendizage.
+          Reuerda revisar antes los recursos y loas guias que se encuentran e este entorno de aprendiaje, la prueba no
+          tiene limite de tiempo, lo mas importante
+          es que te esfuerces, aprendas y disfutes del desarrollo web.
+
         </p>
-    </footer>
+
+        <br>
+        <p>
+
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdNM0edoQ5slaOX-W-bSu5QvdgxOOzyTk7TZNj3oDm0Q1I3cQ/viewform?embedded=true"
+            width="660" height="560" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+        </p>
+
+
+      </section>
+
+
+      <br>
+      <br>
+      <br>
+    </div>
+  </div>
+
+  <footer>
+    <p>correo: felopezt@unadvirtual.edu.co</br>
+      Skype: spaik850</br>
+      fecha de actualizacion: 15/06/2021<br>
+      Imagenes tomadas de :
+      <a href='https://www.freepik.es/fotos-vectores-gratis/fondo'>Vector de Fondo creado por starline -
+        www.freepik.es</a><br>
+
+      <a href='https://www.freepik.es/fotos-vectores-gratis/fondo'>Vector de Fondo creado por starline -
+        www.freepik.es</a><br>
+
+      <a href='https://www.freepik.es/fotos-vectores-gratis/tecnologia'>Vector de Tecnología creado por upklyak -
+        www.freepik.es</a><br>
+      Ejercicios tomados de:
+      <a href="https://mape.neocities.org/flexbox.html">Ejercios de flexbox</a><br>
+      Guia tomada de :
+      <a href="http://www.diazcortez.com.ar/bienal2019/layout/gridCSS.pdf">Gia CSS Grid</a>
+    </p>
+  </footer>
 
 </body>
 

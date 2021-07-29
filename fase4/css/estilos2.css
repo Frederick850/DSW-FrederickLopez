@@ -1,0 +1,71 @@
+
+header{
+    background-color: rgb(228, 220, 240);
+    background-image: url("../img/ABSTRACT_BACKGROUND_01.jpg");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:whitesmoke;
+}
+
+
+body{
+    background-color: rgb(65, 60, 55);
+    background-image: url("../img/fondo.jpg");
+}
+
+@media (max-width:600px){
+    .mnu{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    body{
+      flex-direction: column;
+        align-items: flex-start;
+    }
+
+       
+}
+
+
+section{
+    grid-column: 2/5;
+    background-color: transparent rgba(204, 204, 204, 0.500);
+    color: black;
+    text-align: center;
+       
+
+}
+
+
+aside{
+    grid-column: 1/2;
+    background-color: transparent rgba(204, 204, 204, 0.993);
+    text-align: center;
+    padding: 1em;
+    
+    
+
+}
+
+p{
+    padding: 1em;
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(4, 19, 4, 0.692);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+footer a{
+    color: cyan;
+}
