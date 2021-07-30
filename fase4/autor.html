@@ -15,16 +15,19 @@
 
 </head>
 
-<body>
+<body class="secondary">
     <header>
-        <!-- Seccion del encabezado-->
-        <img src="img/Logo1.jpg" alt="imagen de logo" height="100" width="200">
-        <h1>Diseño de Sitios Web: Flex Box, CSS Grid</h1>
-        <img src="img/logo2.jpg" alt="imagen de logo" height="100" width="200">
-
+        <div class="Contenedor" name="Header">
+            <div class="row">
+                <!-- Seccion del encabezado-->
+                <img class="col-2" src="img/Logo1.jpg" alt="imagen de logo" height="100" width="200">
+                <h1 class="col text-center align-self-center text-white">Diseño de Sitios Web: Flex Box, CSS Grid</h1>
+                <img class="col-2" src="img/logo2.jpg" alt="imagen de logo" height="100" width="200">
+            </div>
+        </div>
     </header>
     <!-- Barra menu orizontal-->
-    <nav class="navbar navbar-expand-lg navbar-danger bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <!--<a class="navbar-brand" href="#">Navbar scroll</a>-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -89,72 +92,112 @@
                     </li>
 
                 </ul>
-                <!--<form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>-->
+
             </div>
         </div>
     </nav>
     <div class="contenedor">
         <div class="row">
-            <aside class="col-4">
-                <h3>Siguenos</h3>
-                <iframe
-                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                    width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                    allowfullscreen="true"
-                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            <aside class="col-md-4 col-sm-12">
+                <div class="row justify-content-center align-items-center ">
+                    <h3 class="col-11 text-center py-3 ">Siguenos</h3>
+                    <iframe class="col-8 "
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                        width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowfullscreen="true"
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
             </aside>
-            <section class="col-8 justify-content">
-                <br>
-                <h2>Acerca de mi</h2>
-                <br>
-                <p>
-                    <img src="img/Foto.jpg">
-                    <br>
-                    Nombre: Frederick López
+            <section class="col-md-8 col-sm-12">
+                <div class="row justify-content-center align-items-center ">
 
-                    Soy tecnólogo de sistemas, actualmente soy estudiante de ingenieria de sistemas me desempeño
-                    laboralmente
-                    realizando pruebas de software y documentación funcional y pruebas unitarias de los desarrollos que
-                    se realizan en la empresa.
+                    <h2 class="col-12 text-center my-3">Acerca de mi</h2>
+                        <img class="col-md-7 col-sm-11 p-4" src="img/Foto.jpg">
+                    <p class="p-4 ">
+                       
 
-                    <br>
-                    Me gusta salir viajar en moto, el deporte, los videojuegos y las series de acción y fantasía.
-                    <br>
-                    Correo: felopezt@unadvirtual.edu.co</br>
-                    Skype: spaik850
+                        Nombre: Frederick López
 
-                </p>
+                        Soy tecnólogo de sistemas, actualmente soy estudiante de ingenieria de sistemas me desempeño
+                        laboralmente
+                        realizando pruebas de software y documentación funcional y pruebas unitarias de los desarrollos
+                        que
+                        se realizan en la empresa.
+
+
+                        Me gusta salir viajar en moto, el deporte, los videojuegos y las series de acción y fantasía.
+
+                        Correo: felopezt@unadvirtual.edu.co</br>
+                        Skype: spaik850
+
+                    </p>
 
 
             </section>
 
-            <br>
-            <br>
-            <br>
+
         </div>
     </div>
 
-    <footer>
-        <p>correo: felopezt@unadvirtual.edu.co</br>
-            Skype: spaik850</br>
-            fecha de actualizacion: 15/06/2021<br>
-            Imagenes tomadas de :
-            <a href='https://www.freepik.es/fotos-vectores-gratis/fondo'>Vector de Fondo creado por starline -
-                www.freepik.es</a><br>
+    <footer class="page-footer font-small bg-dark  text-white pt-4 mt-3">
 
-            <a href='https://www.freepik.es/fotos-vectores-gratis/fondo'>Vector de Fondo creado por starline -
-                www.freepik.es</a><br>
+        <!-- Footer Text -->
+        <div class="container-fluid text-center text-md-left">
 
-            <a href='https://www.freepik.es/fotos-vectores-gratis/tecnologia'>Vector de Tecnología creado por upklyak -
-                www.freepik.es</a><br>
-            Ejercicios tomados de:
-            <a href="https://mape.neocities.org/flexbox.html">Ejercios de flexbox</a><br>
-            Guia tomada de :
-            <a href="http://www.diazcortez.com.ar/bienal2019/layout/gridCSS.pdf">Gia CSS Grid</a>
-        </p>
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+
+                    <p>correo: felopezt@unadvirtual.edu.co</br>
+                        Skype: spaik850</br>
+                        fecha de actualizacion: 30/07/2021<br></p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mb-md-0 mb-3">
+
+                    <!-- Content -->
+                    <p> Imagenes tomadas de :
+                        <a href='https://www.freepik.es/fotos-vectores-gratis/fondo'>Vector de Fondo creado por starline
+                            -
+                            www.freepik.es</a><br>
+
+                        <a href='https://www.freepik.es/fotos-vectores-gratis/fondo'>Vector de Fondo creado por starline
+                            -
+                            www.freepik.es</a><br>
+
+                        <a href='https://www.freepik.es/fotos-vectores-gratis/tecnologia'>Vector de Tecnología creado
+                            por
+                            upklyak - www.freepik.es</a><br>
+                        Ejercicios tomados de:
+                        <a href="https://mape.neocities.org/flexbox.html">Ejercios de flexbox</a><br>
+                        Guia tomada de :
+                        <a href="http://www.diazcortez.com.ar/bienal2019/layout/gridCSS.pdf">Gia CSS Grid</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Text -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+
     </footer>
 
 </body>
